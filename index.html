@@ -35,6 +35,13 @@ section{padding:112px 0}.lead{font-size:18px;line-height:1.75;color:#aaa}.split{
 @media(max-width:1000px){.usecases,.trustgrid{grid-template-columns:1fr 1fr}}
 @media(max-width:900px){.menu a:not(.navcta){display:none}.logo{width:170px}.split,.media,.contactgrid,.statement{grid-template-columns:1fr}.services,.proofgrid{grid-template-columns:1fr}.statrow{grid-template-columns:1fr 1fr}.statement .visual{min-height:500px}.statement .copy{padding:58px 28px}.statement ul{columns:1}section{padding:80px 0}.case-grid{display:block}.case-grid figure{margin-bottom:10px}.case-grid img{height:auto;object-fit:contain}.hero-inner{padding-top:150px}}
 @media(max-width:600px){.wrap{width:min(100% - 30px,1280px)}.usecases,.trustgrid{grid-template-columns:1fr}.hero p{font-size:17px}.navin{height:78px}.navcta{padding:12px 14px}.stat strong{font-size:25px}}
+
+/* Curaduría visual: prioriza las mejores tomas y evita que la landing se vuelva una galería interminable */
+@media(min-width:901px){
+  .case-grid figure:nth-child(n+13){display:none}
+  .case-grid figure.featured img{filter:saturate(1.03) contrast(1.02)}
+}
+
 </style>
 </head><body>
 <header class="nav"><div class="wrap navin">
@@ -45,25 +52,25 @@ section{padding:112px 0}.lead{font-size:18px;line-height:1.75;color:#aaa}.split{
 <section class="hero"><div class="wrap hero-inner">
 <div class="eyebrow">Búho Productora · Sector minero · Argentina</div>
 <h1>La minería exige otra escala.</h1>
-<p>Producción audiovisual para el sector minero en Argentina y soluciones integrales para compañías, proveedores, ferias, eventos y operaciones. Comunicamos proyectos, seguridad, avances y territorio con un equipo preparado para contextos exigentes.</p>
+<p>Producción audiovisual de alto nivel para minería. Registramos territorio, operación, personas y proyectos con una mirada cinematográfica y capacidad de producción en contextos exigentes.</p>
 <div class="actions"><a class="btn" href="https://wa.me/5492645045917">Hablar por WhatsApp</a><a class="btn dark" href="#experiencia">Ver experiencia en minería</a></div>
 </div></section>
 
 <div class="ticker"><div class="ticker-track"><b>VIDEO CORPORATIVO MINERÍA</b> · VIDEO INSTITUCIONAL · SEGURIDAD & HSE · ESG & SOSTENIBILIDAD · INVERSORES · AVANCES DE OBRA · DRONE · FERIAS MINERAS · LOGÍSTICA · STANDS · <b>VIDEO CORPORATIVO MINERÍA</b> · VIDEO INSTITUCIONAL · SEGURIDAD & HSE · ESG & SOSTENIBILIDAD · INVERSORES · AVANCES DE OBRA · DRONE · FERIAS MINERAS · LOGÍSTICA · STANDS ·</div></div>
 
 <section><div class="wrap split">
-<div><div class="eyebrow">Especialización sectorial</div><h2>No hacemos “video bonito”. Resolvemos comunicación minera.</h2></div>
-<div class="lead">Entendemos que un gerente, jefe de planta o responsable HSE necesita comunicar seguridad, procedimientos, avances, sostenibilidad e hitos de proyecto con precisión. Búho combina narrativa, capacidad técnica, discreción y coordinación para acompañar a empresas mineras y proveedores de principio a fin.</div>
+<div><div class="eyebrow">Especialización sectorial</div><h2>Imágenes que muestran la verdadera escala de la minería.</h2></div>
+<div class="lead">Búho combina narrativa, tecnología y experiencia en territorio para transformar operaciones complejas en contenido audiovisual claro, potente y con estándar corporativo.</div>
 </div>
 <div class="wrap statrow"><div class="stat"><strong>4K / 8K</strong><span>Flujos audiovisuales de alto nivel</span></div><div class="stat"><strong>Drone</strong><span>Territorio, infraestructura y escala</span></div><div class="stat"><strong>360°</strong><span>Experiencias inmersivas</span></div><div class="stat"><strong>1 equipo</strong><span>Un interlocutor para resolver</span></div></div>
 </section>
 
 <section id="audiovisual" class="darkpaper"><div class="wrap">
-<div class="eyebrow">01 · Producción audiovisual para minería</div><h2>Contenido preparado para contextos exigentes.</h2>
+<div class="eyebrow">01 · Producción audiovisual para minería</div><h2>Producción audiovisual en territorio.</h2>
 <div class="services">
-<div class="service"><div class="n">01</div><h3>Video corporativo e institucional</h3><p>Producción para empresas mineras, proveedores, proyectos, comunicación corporativa, relaciones institucionales, presentaciones y campañas.</p></div>
-<div class="service"><div class="n">02</div><h3>Seguridad, inducción y capacitación</h3><p>Videos de seguridad minera, inducción, EPP, buenas prácticas y procedimientos operativos para equipos en planta y operaciones.</p></div>
-<div class="service"><div class="n">03</div><h3>Drone, obra y territorio</h3><p>Registro de plantas, exploración, construcción, avances de obra e infraestructura con fotografía, video y tomas aéreas de alto impacto.</p></div>
+<div class="service"><div class="n">01</div><h3>Video corporativo e institucional</h3><p>Historias institucionales y corporativas que transmiten escala, identidad y valor.</p></div>
+<div class="service"><div class="n">02</div><h3>Seguridad, inducción y capacitación</h3><p>Piezas claras y profesionales para inducción, seguridad, capacitación y procedimientos.</p></div>
+<div class="service"><div class="n">03</div><h3>Drone, obra y territorio</h3><p>Drone, fotografía y video para mostrar territorio, infraestructura, procesos y avances.</p></div>
 </div>
 <div class="usecases">
 <div class="use"><h3>Inversores</h3><p>Videos para presentar proyectos, avances e hitos a inversores y casa matriz.</p></div>
@@ -75,18 +82,18 @@ section{padding:112px 0}.lead{font-size:18px;line-height:1.75;color:#aaa}.split{
 
 <section id="soluciones" class="statement"><div class="visual"></div><div class="copy">
 <div class="eyebrow">02 · Soluciones integrales</div><h2>El cliente llega.<br>Todo está resuelto.</h2>
-<p>No ofrecemos servicios aislados. Coordinamos el ecosistema alrededor de un evento, feria, activación o desembarco operativo, especialmente para compañías que llegan a San Juan.</p>
+<p>Además de producir contenido, podemos coordinar la operación necesaria para eventos, ferias y activaciones en San Juan.</p>
 <ul><li>Logística general</li><li>Coordinación de proveedores</li><li>Traslados y movilidad</li><li>Hotelería</li><li>Armado de stands</li><li>Estructuras y materiales</li><li>Pantallas y técnica</li><li>Conectividad Starlink</li><li>Energía y estaciones de trabajo</li><li>Montaje y soporte</li></ul>
 </div></section>
 
 <section class="proof"><div class="wrap">
-<div class="split"><div><div class="eyebrow">03 · Ferias y eventos mineros</div><h2>Una sola dirección. Más control.</h2></div><div class="lead">Para empresas que desembarcan en San Juan o participan en ferias, inauguraciones y activaciones: centralizamos producción, logística y proveedores para reducir tiempos, errores y fricción operativa.</div></div>
+<div class="split"><div><div class="eyebrow">03 · Ferias y eventos mineros</div><h2>Una sola dirección. Más control.</h2></div><div class="lead">Centralizamos producción, logística y proveedores para que cada proyecto mantenga un mismo estándar de principio a fin.</div></div>
 <div class="proofgrid"><div class="proofcard"><h3>Menos proveedores dispersos</h3><p>Un solo equipo coordina las necesidades visuales, técnicas y operativas.</p></div><div class="proofcard"><h3>Más eficiencia</h3><p>Planificación y ejecución bajo un mismo criterio, con capacidad de respuesta en territorio.</p></div><div class="proofcard"><h3>Estándar corporativo</h3><p>Discreción, orden y una imagen consistente para empresas, instituciones y clientes de alta exigencia.</p></div></div>
 </div></section>
 
 <section class="compliance"><div class="wrap">
 <div class="eyebrow">04 · Un socio preparado para minería</div><h2>Producción que entiende la operación.</h2>
-<p class="lead">Trabajar en minería requiere mucho más que cámaras. Requiere planificación, conciencia de seguridad, capacidad técnica y fiabilidad.</p>
+<p class="lead">La calidad audiovisual empieza mucho antes de encender una cámara: planificación, seguridad, técnica y capacidad de respuesta.</p>
 <div class="trustgrid">
 <div class="trust"><strong>Seguridad</strong><h3>Protocolos primero</h3><p>Planificación compatible con inducciones, zonas restringidas y dinámicas operativas.</p></div>
 <div class="trust"><strong>Técnica</strong><h3>Equipo para territorio</h3><p>Drone, estabilización, cámaras profesionales y flujos preparados para condiciones exigentes.</p></div>
@@ -94,12 +101,12 @@ section{padding:112px 0}.lead{font-size:18px;line-height:1.75;color:#aaa}.split{
 <div class="trust"><strong>Fiabilidad</strong><h3>Sin improvisación</h3><p>Programación, comunicación, discreción y capacidad de resolver en locaciones remotas.</p></div>
 </div></div></section>
 
-<section id="experiencia"><div class="wrap"><div class="eyebrow">Experiencia en territorio</div><h2>Operación real. Imágenes reales.</h2><p class="subtle">Trabajos en entornos mineros, operaciones a cielo abierto, minería subterránea, laboratorio, personal e infraestructura.</p>
+<section id="experiencia"><div class="wrap"><div class="eyebrow">Experiencia en territorio</div><h2>Operación real. Imágenes reales.</h2><p class="subtle">Una selección de registros realizados en territorio, donde la escala, las personas y la operación hablan por sí solas.</p>
 <div class="case-grid">
-<figure><img loading="lazy" src="assets/3 Proyecto Veladero (1).jpg" alt="Grabación en mina - Proyecto Veladero"></figure>
+<figure class="featured"><img loading="lazy" src="assets/3 Proyecto Veladero (1).jpg" alt="Grabación en mina - Proyecto Veladero"></figure>
 <figure><img loading="lazy" src="assets/4 Proyecto Veladero (1).jpg" alt="Producción audiovisual minera"></figure>
 <figure><img loading="lazy" src="assets/6 Proyecto Veladero (1).jpg" alt="Video corporativo minería"></figure>
-<figure><img loading="lazy" src="assets/7 Mujeres en la Minería(1).jpg" alt="Comunicación corporativa minería"></figure>
+<figure class="featured"><img loading="lazy" src="assets/7 Mujeres en la Minería(1).jpg" alt="Comunicación corporativa minería"></figure>
 <figure><img loading="lazy" src="assets/12 Veladero.jpg" alt="Operación minera"></figure>
 <figure><img loading="lazy" src="assets/10 Proyecto Veladero (1).jpg" alt="Proyecto minero"></figure>
 <figure><img loading="lazy" src="assets/8 Proyecto Veladero (1).jpg" alt="Registro audiovisual minería"></figure>
@@ -107,7 +114,7 @@ section{padding:112px 0}.lead{font-size:18px;line-height:1.75;color:#aaa}.split{
 <figure><img loading="lazy" src="assets/17Veladero(1).jpg" alt="Infraestructura minera"></figure>
 <figure><img loading="lazy" src="assets/13 Proyecto Veladero (1).jpg" alt="Producción audiovisual sector minero"></figure>
 <figure><img loading="lazy" src="assets/15 Mujeres en la Minería(1).jpg" alt="Relaciones institucionales minería"></figure>
-<figure><img loading="lazy" src="assets/83 24.02.25 Visita Mina Gualcamayo(1).jpg" alt="Visita Mina Gualcamayo"></figure>
+<figure class="featured"><img loading="lazy" src="assets/83 24.02.25 Visita Mina Gualcamayo(1).jpg" alt="Visita Mina Gualcamayo"></figure>
 <figure><img loading="lazy" src="assets/86 24.02.25 Visita Mina Gualcamayo(1).jpg" alt="Mina Gualcamayo producción audiovisual"></figure>
 <figure><img loading="lazy" src="assets/91 24.02.25 Visita Mina Gualcamayo(1).jpg" alt="Cobertura audiovisual minera"></figure>
 <figure><img loading="lazy" src="assets/92 Veladero.jpg" alt="Veladero minería"></figure>
@@ -118,9 +125,9 @@ section{padding:112px 0}.lead{font-size:18px;line-height:1.75;color:#aaa}.split{
 <figure><img loading="lazy" src="assets/81 24.02.25 Visita Mina Gualcamayo(1).jpg" alt="Grabación en minas Argentina"></figure>
 </div></div></section>
 
-<section id="video" class="darkpaper"><div class="wrap media"><div><div class="eyebrow">Contenido audiovisual</div><h2>Historias en movimiento.</h2><p class="lead">La calidad final importa, pero también la capacidad de producir sin perder de vista operación, seguridad y objetivos de comunicación.</p></div><div class="video-shell"><iframe src="https://www.youtube.com/embed/mIekUtfE2Q8?rel=0&modestbranding=1" title="Búho Productora - Producción audiovisual para minería" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></section>
+<section id="video" class="darkpaper"><div class="wrap media"><div><div class="eyebrow">Contenido audiovisual</div><h2>Historias en movimiento.</h2><p class="lead">Producción cinematográfica, técnica y narrativa para convertir cada proyecto en una historia que se vea y se recuerde.</p></div><div class="video-shell"><iframe src="https://www.youtube.com/embed/mIekUtfE2Q8?rel=0&modestbranding=1" title="Búho Productora - Producción audiovisual para minería" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></section>
 
-<section class="imageband"><div class="wrap"><div class="eyebrow">Cobertura nacional</div><h2>Desde San Juan hacia los principales polos de Argentina.</h2><p class="subtle">Producción audiovisual con orientación nacional y foco en plazas estratégicas como Buenos Aires, Rosario, Córdoba y Santa Fe. Soluciones integrales con base inicial en San Juan y capacidad de expansión según cada proyecto.</p></div></section>
+<section class="imageband"><div class="wrap"><div class="eyebrow">Cobertura nacional</div><h2>Desde San Juan hacia los principales polos de Argentina.</h2><p class="subtle">Base en San Juan y capacidad de producción en los principales polos del país, adaptándonos a la escala de cada proyecto.</p></div></section>
 
 <section id="faq" class="faq"><div class="wrap"><div class="eyebrow">Preguntas frecuentes · Minería</div><h2>Lo que una operación necesita saber.</h2>
 <div class="faqgrid">
